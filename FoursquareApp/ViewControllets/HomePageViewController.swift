@@ -53,7 +53,7 @@ class HomePageViewController: UIViewController {
     
     func setBlueGradientBackground(){
         let topColor = UIColor(red: 255.0/255.0, green: 228.0/255.0, blue: 196.0/255.0, alpha: 1.0).cgColor
-        let bottomColor = UIColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 0.5).cgColor
+        let bottomColor = UIColor(red: 49.0/255.0, green: 102.0/255.0, blue: 80.0/255.0, alpha: 0.6).cgColor
         gradientLayer.frame = view.bounds
         gradientLayer.colors = [topColor, bottomColor]
     }

@@ -29,12 +29,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Press start if you are hungry!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="0fu-1N-Mrb">
                                 <rect key="frame" x="66.666666666666657" y="331" width="280.66666666666674" height="27.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" red="0.73325240612030029" green="0.73337996006011963" blue="0.73324435949325562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" clipsSubviews="YES" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qc-MK-Qkr">
                                 <rect key="frame" x="140" y="505.66666666666674" width="134" height="35"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="uYZ-iw-Bv2"/>
                                 </constraints>
@@ -131,8 +131,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="189"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="McDonald's" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="npq-Ny-xL9" userLabel="Title">
-                                                    <rect key="frame" x="20" y="20" width="350" height="39"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="McDonald's" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="npq-Ny-xL9" userLabel="Title">
+                                                    <rect key="frame" x="20" y="48" width="350" height="39"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="39" id="NTX-LM-43c"/>
                                                     </constraints>
@@ -141,26 +141,23 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="304 Visitors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9O-pl-gR5" userLabel="Visitors">
-                                                    <rect key="frame" x="20" y="95" width="69" height="14"/>
+                                                    <rect key="frame" x="20" y="114" width="69" height="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Cafe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Z5-oT-WWK" userLabel="Category">
+                                                    <rect key="frame" x="20" y="92" width="26.333333333333329" height="14"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ukraine, 02140, Kyiv, vul. Grishka, 7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="le9-A5-bex">
-                                                    <rect key="frame" x="20" y="111" width="350" height="20"/>
+                                                    <rect key="frame" x="20" y="130" width="350" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="bgA-gt-Gia"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" text="Cafe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Z5-oT-WWK" userLabel="Category">
-                                                    <rect key="frame" x="20" y="64" width="76" height="14"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="76" id="4J1-xA-8Q2"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -173,11 +170,11 @@
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="V9O-pl-gR5" secondAttribute="trailing" symbolic="YES" id="BeG-X9-myE"/>
                                             <constraint firstItem="le9-A5-bex" firstAttribute="leading" secondItem="AHO-m1-MtQ" secondAttribute="leadingMargin" constant="12" id="GRa-x7-eUn"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="le9-A5-bex" secondAttribute="trailing" constant="12" id="J8N-lG-PHN"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="le9-A5-bex" secondAttribute="bottom" constant="50" id="JCb-5J-CM1"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="le9-A5-bex" secondAttribute="bottom" constant="31" id="JCb-5J-CM1"/>
                                             <constraint firstItem="le9-A5-bex" firstAttribute="leading" secondItem="V9O-pl-gR5" secondAttribute="leading" id="OCT-Yt-fdj"/>
                                             <constraint firstItem="1Z5-oT-WWK" firstAttribute="leading" secondItem="AHO-m1-MtQ" secondAttribute="leadingMargin" constant="12" id="Ouu-Nu-3Fb"/>
                                             <constraint firstItem="1Z5-oT-WWK" firstAttribute="top" secondItem="npq-Ny-xL9" secondAttribute="bottom" constant="5" id="U2Q-Db-cl1"/>
-                                            <constraint firstItem="npq-Ny-xL9" firstAttribute="top" secondItem="AHO-m1-MtQ" secondAttribute="top" id="WdR-uz-Mty"/>
+                                            <constraint firstItem="npq-Ny-xL9" firstAttribute="top" secondItem="AHO-m1-MtQ" secondAttribute="topMargin" constant="20" id="dc6-Qa-R53"/>
                                             <constraint firstItem="le9-A5-bex" firstAttribute="top" secondItem="V9O-pl-gR5" secondAttribute="bottom" constant="2" id="sSU-eQ-nI1"/>
                                         </constraints>
                                         <connections>
